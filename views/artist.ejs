@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title><%= artist.name %> - The Florence Network</title>
+  <link rel="stylesheet" href="/style.css"/>
+</head>
+<body>
+  <h1><%= artist.name %></h1>
+  <p><strong>Studio:</strong> <%= artist.studio %></p>
+  <p><%= artist.description %></p>
+  <p><a href="/artists/<%= artist.id %>/edit">Edit artist</a></p>
+  <p><a href="/">Back to map</a></p>
+</body>
+</html>

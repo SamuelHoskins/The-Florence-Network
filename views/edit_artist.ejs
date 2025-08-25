@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>Edit <%= artist.name %> - The Florence Network</title>
+  <link rel="stylesheet" href="/style.css"/>
+</head>
+<body>
+  <h1>Edit <%= artist.name %></h1>
+  <form method="POST" action="/artists/<%= artist.id %>">
+    <label>Name:<br/><input type="text" name="name" value="<%= artist.name %>"></label><br/>
+    <label>Studio:<br/><input type="text" name="studio" value="<%= artist.studio %>"></label><br/>
+    <label>Description:<br/><textarea name="description"><%= artist.description %></textarea></label><br/>
+    <button type="submit">Save</button>
+  </form>
+  <p><a href="/artists/<%= artist.id %>">Cancel</a></p>
+</body>
+</html>
