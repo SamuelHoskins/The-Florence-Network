@@ -1,0 +1,18 @@
+[
+  {
+    "id": "alice",
+    "name": "Alice Painter",
+    "studio": "Via Roma 1",
+    "lat": 43.7711,
+    "lng": 11.2486,
+    "description": "Abstract painter focusing on Tuscan landscapes."
+  },
+  {
+    "id": "bruno",
+    "name": "Bruno Sculptor",
+    "studio": "Piazza del Duomo 5",
+    "lat": 43.7732,
+    "lng": 11.2569,
+    "description": "Contemporary sculptor working with marble and bronze."
+  }
+]
